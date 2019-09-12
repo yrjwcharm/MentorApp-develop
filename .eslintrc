@@ -1,0 +1,34 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest/globals": true
+  },
+  "plugins": ["react", "import", "react-native", "jest", "detox"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react-native/all",
+    "plugin:jest/recommended"
+  ],
+  "globals": {
+    "process": "readonly"
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "react-native/sort-styles": 0,
+    "react-native/no-color-literals": 0,
+    "react-native/no-inline-styles": 0,
+    "react-native/split-platform-components": 0,
+    "react/display-name": 0
+  }
+}
