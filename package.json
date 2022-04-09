@@ -22,7 +22,7 @@
     "i18next": "^12.1.0",
     "jsc-android": "^245459.0.0",
     "localized-countries": "^1.0.2",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "prop-types": "^15.6.2",
     "react": "16.8.3",
     "react-i18next": "^8.3.8",
