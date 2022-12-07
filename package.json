@@ -69,7 +69,7 @@
     "jest": "^24.9.0",
     "jest-enzyme": "^6.1.2",
     "jetifier": "^1.6.4",
-    "lint-staged": "^8.2.1",
+    "lint-staged": "^13.1.0",
     "metro-react-native-babel-preset": "0.45.3",
     "prettier": "1.18.2",
     "react-dom": "^16.9.0",
